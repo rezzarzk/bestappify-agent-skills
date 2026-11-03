@@ -1,6 +1,6 @@
 # BestAppify Agent Skills
 
-Three Agent Skills that teach Claude, Cursor or any MCP-aware agent how to actually
+Nine Agent Skills that teach Claude, Cursor or any MCP-aware agent how to actually
 *run* work against the live Shopify App Store — rankings, competitors, reviews,
 listing changes, revenue — rather than just answer questions about it.
 
@@ -19,6 +19,12 @@ otherwise make it confidently wrong.
 | [`shopify-aso-week`](skills/shopify-aso-week/SKILL.md) | A full week of ASO: works out what moved, decides what is worth changing, then changes it — listing copy, screenshots, keywords under watch. |
 | [`shopify-competitor-watch`](skills/shopify-competitor-watch/SKILL.md) | Finds who is really competing with you, reads what they changed, and says which of it deserves a response this week. |
 | [`shopify-market-research`](skills/shopify-market-research/SKILL.md) | Sizes a niche without guessing — how crowded, what the apps charge, how good the incumbents are, where the gap sits. |
+| [`weekly-app-store-brief`](skills/weekly-app-store-brief/SKILL.md) | One sweep, one five-bullet reply: rank, what competitors did, rival complaints, one keyword to watch, one small test to run this week. The Monday-morning read before coffee. |
+| [`rival-teardown`](skills/rival-teardown/SKILL.md) | Deep read on a single competitor the user names: where they sit, where their price lands, what has moved on their listing lately, and what their market complains about. |
+| [`review-triage`](skills/review-triage/SKILL.md) | Reads recent reviews for one of your apps, clusters them into the two or three complaints merchants are actually raising, and drafts one reply per cluster. |
+| [`pricing-audit`](skills/pricing-audit/SKILL.md) | Audits one of your apps' price ladder against the top of its own category: free-plan norm, entry-tier quartile, tier count, top rivals' ladders side by side. |
+| [`keyword-gap`](skills/keyword-gap/SKILL.md) | Finds the App Store search terms where rivals in your category place in the top 10 and your app does not. A short, actionable list, then daily watch on the ones you pick. |
+| [`launch-brief`](skills/launch-brief/SKILL.md) | Market brief for launching into a category: crowding, leaders, keyword demand, pricing norm, and the one gap in the complaints a new honest listing could land in. |
 
 ## Install
 
