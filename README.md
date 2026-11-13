@@ -1,8 +1,8 @@
 # BestAppify Agent Skills
 
-Nine Agent Skills that teach Claude, Cursor or any MCP-aware agent how to actually
-*run* work against the live Shopify App Store — rankings, competitors, reviews,
-listing changes, revenue — rather than just answer questions about it.
+Fourteen Agent Skills that teach Claude, Cursor or any MCP-aware agent how to
+actually *run* work against the live Shopify App Store — rankings, competitors,
+reviews, listing changes, revenue — rather than just answer questions about it.
 
 They pair with the free [BestAppify MCP server](https://bestappify.com/mcp?utm_source=github&utm_medium=repo&utm_campaign=agent-skills),
 which exposes the tools. The skills give the agent the method: which tool to
@@ -25,6 +25,11 @@ otherwise make it confidently wrong.
 | [`pricing-audit`](skills/pricing-audit/SKILL.md) | Audits one of your apps' price ladder against the top of its own category: free-plan norm, entry-tier quartile, tier count, top rivals' ladders side by side. |
 | [`keyword-gap`](skills/keyword-gap/SKILL.md) | Finds the App Store search terms where rivals in your category place in the top 10 and your app does not. A short, actionable list, then daily watch on the ones you pick. |
 | [`launch-brief`](skills/launch-brief/SKILL.md) | Market brief for launching into a category: crowding, leaders, keyword demand, pricing norm, and the one gap in the complaints a new honest listing could land in. |
+| [`upgrade-your-plan`](skills/upgrade-your-plan/SKILL.md) | Upgrades the account from inside the chat when a tool refuses "this needs Growth/Pro": looks up the current plan and usage, mints a signed checkout link, reads it back for the user to open. |
+| [`ship-listing-rewrite`](skills/ship-listing-rewrite/SKILL.md) | Rewrites the listing against the terms that actually earned installs — from the app's own GA4, not the crawl. Drafts, reviews the draft critically, and puts the chosen terms under daily watch. |
+| [`install-attribution-weekly`](skills/install-attribution-weekly/SKILL.md) | Weekly install-attribution for one app: which search terms earned installs (GA4), which stores actually installed, and how that moved MRR and churn (Partner API). The join no other Shopify tool can do. |
+| [`rival-passed-me-today`](skills/rival-passed-me-today/SKILL.md) | Today read, not weekly: find the single competitor who overtook your app in the last day or two, name the move that did it, and decide in one word whether to answer with copy, price, reviews or just watch. |
+| [`affiliate-partner-finder`](skills/affiliate-partner-finder/SKILL.md) | Real cross-promotion, affiliate or integration candidates in one App Store category — apps the catalog holds, above a rating floor, with the public listing email the vendor already published. Never drafts the outreach itself. |
 
 ## Install
 
